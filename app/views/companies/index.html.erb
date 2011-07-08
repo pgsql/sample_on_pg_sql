@@ -1,5 +1,9 @@
 <h1>Listing companies</h1>
+<%= form_tag(:companies, :method =>'get') do -%>
 
+<%=select("company", "member_id", Member.all.collect {|p| [ p.name, p.id ] }, {:include_blank => 'None'})%>
+<%= submit_tag 'Update', :class=>'iButtonL mTop10' %>
+<% end %>
 <table>
   <tr>
     <th>Name</th>
