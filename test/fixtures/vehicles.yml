@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  main_company_id: 1
+  year: 2011-07-08
+  make: MyString
+  model: MyString
+
+two:
+  main_company_id: 1
+  year: 2011-07-08
+  make: MyString
+  model: MyString

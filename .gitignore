@@ -1,0 +1,14 @@
+.bundle
+db/*.sqlite3
+log/*.log
+tmp/
+.idea/.generators
+.idea/.name
+.idea/.rakeTasks
+.idea/encodings.xml
+.idea/misc.xml
+.idea/misc.xml~
+.idea/modules.xml
+.idea/sample_pg_sql.iml
+.idea/vcs.xml
+.idea/workspace.xml
