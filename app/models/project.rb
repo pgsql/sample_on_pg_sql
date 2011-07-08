@@ -2,6 +2,8 @@ class Project < ActiveRecord::Base
   has_many :companies, :through => :member_ships
 end
 
+
+
 # == Schema Information
 #
 # Table name: projects
